@@ -1,15 +1,22 @@
 {
   "name": "staticserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "Archivo de configuracion inicial para desarrollo, se incluye en este repositorio express como ejemplo para un proyecto de servidor estatico",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Node","JS","Development"],
+  "author": "Diego Vergara Casanova <davc93@gmail.com>",
   "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
   "dependencies": {
     "express": "^4.18.1"
   }
