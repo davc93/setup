@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,macos,linux,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,linux,windows
 
+### Configuracion ###
+# Aqui es donde iran las contrasenas y configuracion de tu proyecto
+config.js
+
 ### Linux ###
 *~
 
