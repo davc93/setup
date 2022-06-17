@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
-  "keywords": ["Node","JS","Development"],
+  "keywords": [
+    "Node",
+    "JS",
+    "Development"
+  ],
   "author": "Diego Vergara Casanova <davc93@gmail.com>",
   "license": "ISC",
   "devDependencies": {
@@ -17,7 +21,12 @@
     "nodemon": "^2.0.16",
     "prettier": "^2.6.2"
   },
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davc93/setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davc93/setup/issues"
+  },
+  "homepage": "https://github.com/davc93/setup#readme"
 }
